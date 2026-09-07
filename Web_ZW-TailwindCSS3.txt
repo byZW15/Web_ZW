@@ -1,4 +1,9 @@
 Installation Guide TailwindCSS 3
 
-1. npm install -D tailwindcss@3
-2. npx tailwindcss init -p
+1. Install
+>> npm install -D tailwindcss@3
+
+2. Configuration for file: tailwind.config.json & postss.config.css
+>> npx tailwindcss init -p
+
+
