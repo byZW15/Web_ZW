@@ -1,0 +1,7 @@
+Realtime edit TailwindCss running to file: [style.css]
+
+1. Add to "script" in file: [package.json]
+-> "dev": "tailwindcss -i ./src/tailwind.css -o ./css/style.css --watch"
+
+2. Run in Terminal 
+>> npm run dev
