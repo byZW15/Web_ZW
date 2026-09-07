@@ -13,11 +13,11 @@ Installation Guide TailwindCSS 3
 3. Linked .html file to Content[] in file: tailwind.config.js
     ['./index.html'] or ['./public/index.html']
 
-3. Add input directive CSS for input file [input.css] / [tailwind.css]
+4. Add input directive CSS for input file [input.css] / [tailwind.css]
 ->  @tailwind base;
     @tailwind components;
     @tailwind utilities;
 
-4. Create CSS Style for file: style.css
+5. Create CSS Style for file: style.css
    Cli command running directive css file: [input.css] / [tailwind.css] to compile file output: [style.css] in realtime for .html 
 >> npx tailwindcss -i ./src/tailwind.css -o ./css/style.css --watch
