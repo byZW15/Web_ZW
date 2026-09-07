@@ -1,0 +1,4 @@
+Installation Guide TailwindCSS 3
+
+1. npm install -D tailwindcss@3
+2. npx tailwindcss init -p
