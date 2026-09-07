@@ -6,4 +6,7 @@ Installation Guide TailwindCSS 3
 2. Configuration for file: tailwind.config.json & postss.config.css
 >> npx tailwindcss init -p
 
-
+3. Add input directive CSS for input.css [tailwind.css]
+->  @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
